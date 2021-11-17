@@ -1,6 +1,6 @@
 # Courier Management System
 
-It is a database software that allows the courier service companies to manage and monitor all the data. The project details can be found here.
+It is a database software that allows the courier service companies to manage and monitor all the data. The project details can be found [here](https://github.com/Nawrin14/Courier_Management_System/blob/master/Courier%20Management%20System.pdf).
 
 # Instructions
 
