@@ -4,11 +4,11 @@ It is a database software that allows the courier service companies to manage an
 
 # Instructions
 
-Firstly, a database named 'CourierManagementSystemDatabase' has to be created Secondly, 'CUSTOMER', 'RECEIVER' & 'DELIVERYMAN' tables have to be created  After creating the 'CUSTOMER' table, 'PAYMENT' table has to be created since 'CustomerNID' is a foreign key from 'CUSTOMER' table. Then, 'PACKAGE' & 'VEHICLE' tables have to be created. Now, 'ORDERS' table is created because it contains foreign keys from the previous 6 tables. Lastly, 'Admin' table has to be created and later, the 'UNIQUE' constraint must be added to the 'AdminUserName' attribute.
+Firstly, a database named 'CourierManagementSystemDatabase' has to be created. Secondly, 'CUSTOMER', 'RECEIVER' & 'DELIVERYMAN' tables have to be created. After creating the 'CUSTOMER' table, 'PAYMENT' table has to be created since 'CustomerNID' is a foreign key from 'CUSTOMER' table. Then, 'PACKAGE' & 'VEHICLE' tables have to be created. Now, 'ORDERS' table is created because it contains foreign keys from the previous 6 tables. Lastly, 'Admin' table has to be created and later, the 'UNIQUE' constraint must be added to the 'AdminUserName' attribute.
 
 Two changes have to be made after creating the 'DELIVERYMAN' table:
 1. The 'UNIQUE' constraint has to be added to the 'Email' attribute.
-2. A new attribute 'DeliverymanPassWord' has to added.
+2. A new attribute 'DeliverymanPassWord' has to be added.
 
 After sequentially doing the steps above, the project can be built and run in the NetBeans IDE.
 
